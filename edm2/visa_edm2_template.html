@@ -6,12 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="x-apple-disable-message-reformatting">
     <title>Powering Seamless Future Ready Commerce</title>
+    
+    <!-- Import Open Sans from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <!--[if mso]>
     <style type="text/css">
-        body, table, td {font-family: Arial, sans-serif !important;}
+        body, table, td {font-family: 'Segoe UI', Arial, sans-serif !important;}
     </style>
     <![endif]-->
+    
     <style type="text/css">
+        /* Import Open Sans as backup method */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+        
+        /* VISA Brand Font - Self-hosted */
+        @font-face {
+            font-family: 'VISA Font';
+            src: url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Regular-Web.woff2') format('woff2'),
+                 url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Regular-Web.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'VISA Font';
+            src: url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Medium-Web.woff2') format('woff2'),
+                 url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Medium-Web.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'VISA Font';
+            src: url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Bold-Web.woff2') format('woff2'),
+                 url('https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/fonts/VisaDialect-Bold-Web.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        
         body {
             margin: 0;
             padding: 0;
@@ -31,6 +67,12 @@
             text-decoration: none;
             -ms-interpolation-mode: bicubic;
         }
+        
+        /* Apply VISA Font first, then Open Sans, then system fonts with comprehensive fallback stack */
+        body, table, td, p, h1, h2, h3, a, span, div {
+            font-family: 'VISA Font', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        
         @media only screen and (max-width: 600px) {
             .mobile-padding {
                 padding: 20px !important;
@@ -61,7 +103,7 @@
                     <!-- Logo -->
                     <tr>
                         <td class="mobile-padding" style="padding: 0 40px">
-                            <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/visa-logo.png" alt="VISA" width="150" style="display: block; border: 0;">
+                            <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/logo_2x.png" alt="VISA" width="123" height="41" style="display: block; width: 123px; height: auto; max-width: 100%; border: 0; -ms-interpolation-mode: bicubic;">
                         </td>
                     </tr>
 
@@ -72,15 +114,15 @@
                     
                     <!-- Hero Section -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 0px 30px 40px;">
+                        <td class="mobile-padding" style="padding: 0 0px 55px 40px;">
                             <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td class="mobile-stack" style="width: 45%; vertical-align: top; padding-right: 20px;">
-                                        <h1 style="color: #1434CB; font-family: Arial, sans-serif; font-size: 32px; line-height: 38px; margin: 0 0 20px 0; font-weight: bold;">Powering Seamless Future Ready Commerce</h1>
-                                        <a href="#" style="display: inline-block; padding: 10px 20px; background-color: #B8F4E8; color: #1434CB; text-decoration: none; border-radius: 4px; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;">Learn more</a>
+                                    <td class="mobile-stack" style="width: 50%; vertical-align: top; padding-right: 20px;">
+                                        <h1 style="color: #1534CC; font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 22px; line-height: 29px; margin: 0 0 20px 0; font-weight: 700;">Powering Seamless Future Ready Commerce</h1>
+                                        <a href="https://www.visaacceptance.com/en-ap/contact-us/infrastructure/request-consultation.html" style="display: inline-block; padding: 13px 12px; background-color: #6EECD7; color: #1534CC; text-decoration: none; border-radius: 7px; font-family: 'VISA Font', 'Open Sans', Arial, sans-serif; font-size: 12px; font-weight: 600;">Learn more</a>
                                     </td>
-                                    <td class="mobile-stack hero-image" style="width: 55%; vertical-align: top;">
-                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/header2.png" alt="Commerce" width="300" style="display: block; width: 100%; max-width: 300px; height: auto; border: 0;">
+                                    <td class="mobile-stack hero-image" style="width: 50%; vertical-align: top;">
+                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/header2_2x.jpg" alt="Commerce" width="288" height="182" style="display: block; width: 100%; max-width: 288px; height: auto; border: 0; -ms-interpolation-mode: bicubic;">
                                     </td>
                                 </tr>
                             </table>
@@ -90,43 +132,43 @@
                     <!-- Greeting -->
                     <tr>
                         <td class="mobile-padding" style="padding: 0 40px 20px 40px;">
-                            <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; color: #000000; margin: 0;text-align: center;">Dear XX,</p>
+                            <p style="font-family: 'VISA Font', 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 24px; color: #000000; margin: 0; text-align: center; font-weight: 600;">Dear XX,</p>
                         </td>
                     </tr>
                     
                     <!-- Intro Text -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
-                            <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; color: #000000; margin: 0; text-align: center;">Acquirers today require flexible innovative payment solutions to help their business customers pay and make payment better. That means enabling more payment methods and more payment channels with higher payment success rates.</p>
+                        <td class="mobile-padding" style="padding: 0 72px 55px 72px;">
+                            <p style="font-family: 'VISA Font', 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 19px; color: #000000; margin: 0; text-align: center; font-weight: 600;">Acquirers today require flexible innovative payment solutions to help their business customers pay and make payment better. That means enabling more payment methods and more payment channels with higher payment success rates.</p>
                         </td>
                     </tr>
                     
                     <!-- Section Heading -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 20px 40px;">
-                            <h2 style="font-family: Arial, sans-serif; font-size: 24px; line-height: 30px; color: #000000; margin: 0; text-align: center; font-weight: bold;">Accepting payments in a dynamic consumer landscape and ecosystem</h2>
+                        <td class="mobile-padding" style="padding: 0 72px 20px 72px;">
+                            <h2 style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 22px; line-height: 25px; color: #000000; margin: 0; text-align: center; font-weight: 700;">Accepting payments in a dynamic consumer landscape and ecosystem</h2>
                         </td>
                     </tr>
                     
                     <!-- VAP Description -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
-                            <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; color: #000000; margin: 0; text-align: center;">Visa Acceptance Platform (VAP) is an open payments system to cut through increasing cost and complexity across today's payment ecosystem.</p>
+                        <td class="mobile-padding" style="padding: 0 90px 40px 90px;">
+                            <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 19px; color: #000000; margin: 0; text-align: center; font-weight: 600;">Visa Acceptance Platform (VAP) is an open payments system to cut through increasing cost and complexity across today’s payment ecosystem.</p>
                         </td>
                     </tr>
                     
                     <!-- Stats -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
+                        <td class="mobile-padding" style="padding: 0 40px 40px 40px;">
                             <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
                                     <td class="stat-block" style="width: 50%; vertical-align: top; padding-right: 10px; text-align: center;">
-                                        <p style="font-family: Arial, sans-serif; font-size: 42px; line-height: 48px; color: #1434CB; margin: 0 0 5px 0; font-weight: bold;">2.97%</p>
-                                        <p style="font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; color: #000000; margin: 0;">Higher Approval Rate<sup>1</sup></p>
+                                        <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 36px; line-height: 36px; color: #1534CC; margin: 0 0 5px 0; font-weight: 700;">2.97%</p>
+                                        <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #000000; margin: 0; font-weight: 600;">Higher Approval Rate<sup>1</sup></p>
                                     </td>
                                     <td class="stat-block" style="width: 50%; vertical-align: top; padding-left: 10px; text-align: center;">
-                                        <p style="font-family: Arial, sans-serif; font-size: 42px; line-height: 48px; color: #1434CB; margin: 0 0 5px 0; font-weight: bold;">70bps</p>
-                                        <p style="font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; color: #000000; margin: 0;">In lower fraud<sup>1</sup></p>
+                                        <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 36px; line-height: 36px; color: #1534CC; margin: 0 0 5px 0; font-weight: 700;">70bps</p>
+                                        <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #000000; margin: 0; font-weight: 600;">In lower fraud<sup>1</sup></p>
                                     </td>
                                 </tr>
                             </table>
@@ -136,13 +178,13 @@
                     <!-- VAP Power Heading -->
                     <tr>
                         <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
-                            <h2 style="font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; color: #1434CB; margin: 0; text-align: center; font-weight: bold;">Let Visa Acceptance Platform power your seamless, future-ready commerce</h2>
+                            <h2 style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 22px; line-height: 25px; color: #1534CC; margin: 0; text-align: center; font-weight: 700;">Let Visa Acceptance Platform power your seamless, future-ready commerce</h2>
                         </td>
                     </tr>
                     
                     <!-- Features with Icons -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
+                        <td class="mobile-padding" style="padding: 0 100px 50px 60px;">
                             <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <!-- Feature 1 -->
                                 <tr>
@@ -150,12 +192,12 @@
                                         <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td style="width: 60px; vertical-align: top;">
-                                                    <div style="width: 50px; height: 50px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
-                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/icon-4.png" alt="Uptime" width="50" style="display: block; margin: 10px auto;">
+                                                    <div style="width: 57px; height: 57px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/icon_21_2x.png" alt="Uptime" width="47" height="42" style="display: block; margin: 10px auto; width: 47px; height: 42px; border: 0; -ms-interpolation-mode: bicubic;">
                                                     </div>
                                                 </td>
-                                                <td style="vertical-align: top; padding-left: 15px;">
-                                                    <p style="font-family: Arial, sans-serif; font-size: 15px; line-height: 22px; color: #000000; margin: 0;">VAP delivers 99.999% uptime<sup>2</sup> with built-in redundancy — ensuring your acceptance stays live in every moment that matters.</p>
+                                                <td style="vertical-align: top; padding-left: 30px;">
+                                                    <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 19px; color: #000000; margin: 0; font-weight: 600;">VAP delivers 99.999% uptime<sup>2</sup> with built-in redundancy — ensuring your acceptance stays live in every moment that matters.</p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -168,12 +210,12 @@
                                         <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td style="width: 60px; vertical-align: top;">
-                                                    <div style="width: 50px; height: 50px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
-                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/icon-5.png" alt="Payment Options" width="50" style="display: block; margin: 10px auto;">
+                                                    <div style="width: 57px; height: 57px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/icon22_2x.png" alt="Payment Options" width="46" height="52" style="display: block; margin: 10px auto; width: 46px; height: 52px; border: 0; -ms-interpolation-mode: bicubic;">
                                                     </div>
                                                 </td>
-                                                <td style="vertical-align: top; padding-left: 15px;">
-                                                    <p style="font-family: Arial, sans-serif; font-size: 15px; line-height: 22px; color: #000000; margin: 0;">Expanded payment options with more methods and channels help your merchants improve conversion and grow into new markets.</p>
+                                                <td style="vertical-align: top; padding-left: 30px;">
+                                                    <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 19px; color: #000000; margin: 0; font-weight: 600;">	Expanded payment options with more methods and channels help your merchants improve conversion and grow into new markets.</p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -186,12 +228,12 @@
                                         <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td style="width: 60px; vertical-align: top;">
-                                                    <div style="width: 50px; height: 50px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
-                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/icon-6.png" alt="Modular Architecture" width="50" style="display: block; margin: 10px auto;">
+                                                    <div style="width: 57px; height: 57px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                                                        <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/icon23_2x.png" alt="Modular Architecture" width="43" height="42" style="display: block; margin: 10px auto; width: 43px; height: 42px; border: 0; -ms-interpolation-mode: bicubic;">
                                                     </div>
                                                 </td>
-                                                <td style="vertical-align: top; padding-left: 15px;">
-                                                    <p style="font-family: Arial, sans-serif; font-size: 15px; line-height: 22px; color: #000000; margin: 0;">A modular architecture lets you launch new capabilities faster, across markets and channels — without rebuilding your stack.</p>
+                                                <td style="vertical-align: top; padding-left: 30px;">
+                                                    <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 19px; color: #000000; margin: 0; font-weight: 600;">A modular architecture lets you launch new capabilities faster, across markets and channels — without rebuilding your stack.</p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -203,22 +245,22 @@
                     
                     <!-- Footnotes -->
                     <tr>
-                        <td class="mobile-padding" style="padding: 0 40px 30px 40px;">
-                            <p style="font-family: Arial, sans-serif; font-size: 10px; line-height: 14px; color: #666666; margin: 0;"><sup>1</sup> Visa efficacy analysis leveraging existing sellers compared to VisaNet, from October 2020—September 2021.</p>
-                            <p style="font-family: Arial, sans-serif; font-size: 10px; line-height: 14px; color: #666666; margin: 5px 0 0 0;"><sup>2</sup> Measured and validated by the Visa Operations and Infrastructure monthly reporting, as reported on Jan 1, 2025.</p>
+                        <td class="mobile-padding" style="padding: 0 80px 40px 80px;">
+                            <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 7px; line-height: 10px; color: #666666; margin: 0; font-weight: 600;"><sup>1</sup> Visa efficacy analysis leveraging existing sellers compared to VisaNet, from October 2020–September 2021.</p>
+                            <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 7px; line-height: 10px; color: #666666; margin: 0; font-weight: 600;"><sup>2</sup> Measured and validated by the Visa Operations and Infrastructure monthly reporting, as reported on Jan 1, 2025.</p>
                         </td>
                     </tr>
                     
-                     <!-- Blue CTA Section -->
+                    <!-- Blue CTA Section -->
                     <tr>
-                        <td style="background-color: #1434CB; padding: 40px 40px;">
-                            <p style="font-family: Arial, sans-serif; font-size: 18px; line-height: 26px; color: #ffffff; margin: 0 0 20px 0; text-align: center;">A single integration with our platform opens up a world of possibilities. Connect with us now to explore how you can navigate payments complexity to accelerate business growth.</p>
+                        <td style="background-color: #1534CC; padding: 40px 80px;">
+                            <p style="font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; line-height: 24px; color: #ffffff; margin: 0 0 25px 0; text-align: center; font-weight: 600;">A single integration with our platform opens up a world of possibilities. Connect with us now to explore how you can navigate payments complexity to accelerate business growth.</p>
                             <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center">
                                 <tr>
                                     <td style="border-radius: 4px; background-color: #ffffff;">
-                                        <a href="#" style="display: inline-block; padding: 12px 24px 12px 30px; background-color: #ffffff; color: #1434CB; text-decoration: none; border-radius: 4px; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 24px; vertical-align: middle;">
+                                        <a href="https://www.visaacceptance.com/en-ap/contact-us/infrastructure/request-consultation.html" style="display: inline-block; padding: 7px 14px; background-color: #ffffff; color: #1534CC; text-decoration: none; border-radius: 7px; font-family: 'VISA Font', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; line-height: 24px; vertical-align: middle;">
                                             Let's Connect
-                                            <img src="https://raw.githubusercontent.com/nightawaitsday/edm/refs/heads/main/images/button.png" alt="→" width="20" height="20" style="display: inline-block; vertical-align: middle; margin-left: 8px; border: 0;">
+                                            <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/blue-arrow_2x.png" alt="→" width="26" height="26" style="display: inline-block; vertical-align: middle; margin-left: 5px; width: 26px; height: 26px; border: 0; -ms-interpolation-mode: bicubic;">
                                         </a>
                                     </td>
                                 </tr>
@@ -228,7 +270,13 @@
                     
                     <!-- Footer Spacer -->
                     <tr>
-                        <td style="height: 40px;">&nbsp;</td>
+                        <td style="padding: 0; text-align: center; background-color: #1434CB;">
+                            <img src="https://raw.githubusercontent.com/nightawaitsday/edm/41851fb42745ff7f4fe690f67ddf69b188c4e87e/images/footer-bar_2x.png" 
+                                 alt="" 
+                                 width="527"
+                                 height="14"
+                                 style="display: inline-block; width: 527px; max-width: 90%; height: auto; border: 0; -ms-interpolation-mode: bicubic;">
+                        </td>
                     </tr>
                     
                 </table>
